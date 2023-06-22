@@ -1,0 +1,68 @@
+.container-fluid {
+    background-color: rgb(157, 198, 221);
+    border-radius: 10px;
+    font-family: 'Baloo 2', cursive;
+}
+
+.clock {
+    top: 2.3vh;
+    position: relative;
+    height: 30vw;
+    width: 40vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+    margin: auto;
+    border-bottom: 3vh;
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+}
+
+#hour,
+#minute,
+#second {
+    position: absolute;
+    transform-origin: bottom;
+
+}
+
+#hour {
+    height: 23%;
+    width: 1.5%;
+    background-color: rgb(239, 111, 111);
+    top: 25%;
+    left: 48.7%;
+    border-radius: 12px;
+
+}
+
+#minute {
+    height: 28%;
+    width: 1.18%;
+    background-color: rgb(33, 29, 29);
+    top: 20%;
+    left: 48.7%;
+    border-radius: 12px;
+    opacity: 0.8;
+
+}
+
+#second {
+    height: 30%;
+    width: 0.7%;
+    background-color: rgb(53, 49, 49);
+    top: 17%;
+    left: 49%;
+    border-radius: 12px;
+}
+
+#time {
+
+    border-radius: 10px;
+    border: 6px solid rgb(81, 171, 207);
+    padding-top: 27vw;
+
+}
+
+.container {
+    margin-top: 17vh;
+}
